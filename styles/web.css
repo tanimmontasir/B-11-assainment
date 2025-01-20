@@ -1,0 +1,93 @@
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+/* navbar related style */
+.oragne{
+    color: orange;
+}
+.skyblue{
+    color: skyblue;
+}
+.blue{
+    color: #05D4DF;
+}
+.purple{
+    color: #5D58EF;
+}
+
+
+
+.navbar{
+    justify-content: center;
+    margin: 20px 140px 20px 140px;
+    align-items: center ;
+    
+    
+}
+.nav-link{
+    
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: medium;
+    
+    
+}
+.nav-item{
+    list-style: none;
+    justify-content: space-around;
+    
+    
+}
+
+.btn{
+    justify-content: space-between;
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 30px;
+
+    /* banner style */
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 140px 0px 141px;
+    
+}
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-title{
+    font-size: 56px;
+    font-weight: bold;
+}
+.banner-description{
+    font-size: 20px;
+    
+}
+.profile-pic{
+    width: 100%;
+
+}
+.color{
+    color: orange;
+}
+.color-1{
+    color: skyblue;
+}
+.btn-1{
+    background-color: black;
+    padding:10px 30px ;
+    border-radius: 5px;
+    color: white;
+}
+/* reponsive media query */
+@media screen and (max-width: 932px){
+    .navbar, .nav-links{
+        flex-direction: column;
+    }
+    
+}
